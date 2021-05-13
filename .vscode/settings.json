@@ -1,0 +1,44 @@
+{
+// ビルドのレシピ
+"latex-workshop.latex.tools": [
+    {
+        "name": "latexmk",
+        "command": "latexmk",
+        "args": [
+         "-e",
+         "$latex=q/uplatex %O -kanji=utf8 -no-guess-input-enc -synctex=1 -interaction=nonstopmode -file-line-error %S/",
+         "-e",
+         "$bibtex=q/upbibtex %O %B/",
+         "-e",
+         "$biber=q/biber %O --bblencoding=utf8 -u -U --output_safechars %B/",
+         "-e",
+         "$makeindex=q/upmendex %O -o %D %S/",
+         "-e",
+         "$dvipdf=q/dvipdfmx %O -o %D %S/",
+         "-norc",
+         "-gg",
+         "-pdfdvi",
+         "%DOC%"
+        ]
+    }
+    ],
+    "latex-workshop.latex.outDir": "",
+    "[tex]": {
+        // スニペット補完中にも補完を使えるようにする
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        // インデント幅を2にする
+        "editor.tabSize": 2
+    },
+
+    "[latex]": {
+        // スニペット補完中にも補完を使えるようにする
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        // インデント幅を2にする
+        "editor.tabSize": 2
+    },
+
+    "[bibtex]": {
+        // インデント幅を2にする
+        "editor.tabSize": 2
+    }
+}
