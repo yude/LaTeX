@@ -1,2 +1,5 @@
-# latex-templates
-my LaTeX templates (for Visual Studio Code "snippets" function)
+# LaTeX
+LaTeX related files
+
+## License
+This repository is licensed under the MIT License.
