@@ -2,7 +2,7 @@
     "report": {
         "prefix": "report",
         "body": [
-            "\\documentclass[a4paper,11pt,uplatex]{jsarticle}",
+            "\ddocumentclass[a4paper,11pt,uplatex]{jsarticle}",
             "\\usepackage[top=3truemm,bottom=20truemm,left=25truemm,right=25truemm]{geometry}",
             "% 数式",
             "\\usepackage{amsmath,amsfonts}",
