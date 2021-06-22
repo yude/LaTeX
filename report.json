@@ -15,7 +15,7 @@
             "% ソースコード",
             "\\usepackage{txfonts} % 設定部分",
             "\\usepackage{listings, jlisting}",
-            "\\renewcommand{\\lstlistingname}{リスト}",
+            "\\renewcommand{\\lstlistingname}{ソースコード}",
             "\\lstset{language=c,",
             "basicstyle=\\ttfamily\\scriptsize,",
             "commentstyle=\\textit,",

@@ -9,7 +9,7 @@ LaTeX related files
 3. Run `mktexlsr` on your Terminal (with root / Administrator privileges).
 ### Insert
 ```
-\begin{lstlisting}
+\begin{lstlisting}[caption=MainActivity.java,label=1st]
 #include <stdio.h>
 int main(void){
     printf("Hello world!\n");
